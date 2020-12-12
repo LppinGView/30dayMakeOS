@@ -35,7 +35,7 @@ entry:
 		MOV		DS,AX
 		MOV		ES,AX
 
-		MOV		SI,msg
+		MOV		SI,entry
 putloop:
 		MOV		AL,[SI]
 		ADD		SI,1			; 给SI加1
